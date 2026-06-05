@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# Local generated outputs
+assets/
+tools/
+*_master.png
+*_preview.png
+*.vsdx
+*.vsd
+*.pdf
+*.svg.tmp
+
+# Local environment
+.env
+.venv/
+venv/

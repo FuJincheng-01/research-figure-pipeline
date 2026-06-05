@@ -1,0 +1,33 @@
+{
+  "name": "research-figure-pipeline",
+  "version": "0.1.0+codex.20260605014609",
+  "description": "End-to-end publication research figure workflow using ChatGPT image2 modules and local Visio COM assembly.",
+  "author": {
+    "name": "Fu Jincheng"
+  },
+  "keywords": [
+    "research-figure",
+    "scientific-visualization",
+    "visio",
+    "image-generation",
+    "paper-figures"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Research Figure Pipeline",
+    "shortDescription": "Create paper-ready figures with ChatGPT image2 modules and local Visio COM.",
+    "longDescription": "Build publication-quality research figures end to end using the validated OmniDet workflow: extract factual paper data, create a ChatGPT image2 overall master, show it to the user for approval, revise the full master until approved, then decompose it into modules and regenerate each module separately with ChatGPT image2 for clarity. Final assembly, arrows, alignment, and export must happen visibly in the user's local Microsoft Visio through PowerShell COM for 1:1 reproduction of the approved master.",
+    "developerName": "Fu Jincheng",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Research Figure Pipeline to make an approved master then VSDX.",
+      "Turn this manuscript into image2 modules and a VSDX.",
+      "Optimize this Visio research figure for readability."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

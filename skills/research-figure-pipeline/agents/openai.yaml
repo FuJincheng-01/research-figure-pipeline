@@ -1,0 +1,8 @@
+interface:
+  display_name: "Research Figure Pipeline"
+  short_description: "ChatGPT image2 master/modules, then visible Visio COM assembly."
+  brand_color: "#2563EB"
+  default_prompt: "Use $research-figure-pipeline to create a ChatGPT image2 master, get my approval, regenerate clear modules, then assemble the final VSDX through visible Visio COM."
+
+policy:
+  allow_implicit_invocation: true
