@@ -63,7 +63,7 @@ Clone this repository and run the installer:
 ```powershell
 git clone https://github.com/FuJincheng-01/research-figure-pipeline.git
 cd research-figure-pipeline
-.\install.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
 ```
 
 The installer will:
