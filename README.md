@@ -56,7 +56,26 @@ The central rule is:
 ChatGPT image2 builds visual modules; Visio assembles relationships.
 ```
 
-## Install As A Codex Plugin
+## Quick Install As A Codex Plugin
+
+Clone this repository and run the installer:
+
+```powershell
+git clone https://github.com/FuJincheng-01/research-figure-pipeline.git
+cd research-figure-pipeline
+.\install.ps1
+```
+
+The installer will:
+
+- copy the plugin to `%USERPROFILE%\plugins\research-figure-pipeline` when needed,
+- create or update `%USERPROFILE%\.agents\plugins\marketplace.json`,
+- add the plugin entry to the personal marketplace,
+- run `codex plugin add research-figure-pipeline@personal` if the Codex CLI is available.
+
+Open a new Codex thread after installation so the plugin and skill metadata are loaded.
+
+## Manual Install As A Codex Plugin
 
 Clone this repository into your local plugin directory:
 
