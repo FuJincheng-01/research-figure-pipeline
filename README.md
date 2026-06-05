@@ -1,3 +1,11 @@
+# Research Figure Pipeline
+
+**Language / 语言**: [中文](#中文说明) | [English](#english-readme)
+
+---
+
+<a id="中文说明"></a>
+
 # Research Figure Pipeline（科研绘图插件）
 
 一个用于绘制论文级科研图的 Codex 插件和 skill。它采用严格的两阶段流程：
