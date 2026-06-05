@@ -1,11 +1,11 @@
 ---
 name: research-figure-pipeline
-description: "Use when creating, reconstructing, or optimizing publication-quality research paper figures end to end using the strict workflow validated in the OmniDet conversation: extract paper truth, create a ChatGPT image2 master, generate module assets with ChatGPT image2, replace critical samples with real images, and assemble/export only through the user's local Microsoft Visio controlled by PowerShell COM. Applies to CVPR/ICCV/TIP/IEEE-style dataset, augmentation, method, pipeline, or architecture figures that require modular image assets, exact paper data, Visio layout/arrows, and exported-preview validation."
+description: "Use when creating, reconstructing, or optimizing publication-quality research paper figures end to end for SCI papers, top-tier conference papers, theses, and technical reports across disciplines: extract paper truth, create a ChatGPT image2 master, generate module assets with ChatGPT image2, replace critical samples with real images, and assemble/export only through the user's local Microsoft Visio controlled by PowerShell COM. Applies to dataset, experiment, method, system, model, data-processing, result-analysis, and multi-module scientific figures that require modular image assets, exact paper data, Visio layout/arrows, and exported-preview validation."
 ---
 
 # Research Figure Pipeline
 
-Use this skill to build publication-grade research figures from paper content through the exact workflow proven in the OmniDet figure work:
+Use this skill to build publication-grade research figures from paper content through a general workflow for SCI papers, top-tier conference papers, theses, and technical reports across disciplines:
 
 1. extract truth from the paper,
 2. create an approved master visual with ChatGPT image2,
@@ -207,7 +207,7 @@ Assembly target:
 
 Do not rebuild complex module internals in Visio if a high-quality module asset already exists.
 
-Important Visio note from the OmniDet run: some Visio versions import SVGs containing `<image>` tags but export them blank. If that happens:
+Important Visio compatibility note: some Visio versions import SVGs containing `<image>` tags but export them blank. If that happens:
 
 - keep SVG wrappers as deliverables,
 - use PNG imports for the final visible Visio figure,

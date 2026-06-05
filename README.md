@@ -14,7 +14,7 @@
 2. 用户确认整体方案后，再把整图拆成多个清晰模块分别重新生图；
 3. 最后通过 Windows 本机 Microsoft Visio + PowerShell COM 完成可编辑 `.vsdx` 组装、箭头连接、对齐和导出。
 
-这个项目来自 OmniDet 数据集构建图的真实绘制流程，适合 CVPR / ICCV / TIP / IEEE 风格的数据集构建图、数据增强图、方法流程图、模型结构图和实验 pipeline 图。它的核心思路是：AI 生图负责把每个模块画得好看，Visio 负责最终排版、箭头关系和论文可编辑文件。
+这个项目面向通用科研绘图场景，适合 SCI 论文、顶会会议论文、学位论文和技术报告中的数据集构建图、实验流程图、方法框架图、系统架构图、模型结构图、数据处理图、实验装置图、结果分析图和多模块综合示意图。它适用于计算机、工程、材料、医学、生物、化学、物理、环境、管理等多个领域。核心思路是：AI 生图负责把每个模块画得专业、清晰且风格统一，Visio 负责最终排版、箭头关系和论文可编辑文件。
 
 ## 重要限制
 
@@ -147,7 +147,7 @@ After I approve it, regenerate each module separately and assemble the final VSD
 ```
 
 ```text
-Use $research-figure-pipeline to convert this method section into a CVPR-style pipeline figure.
+Use $research-figure-pipeline to convert this method section into a publication-style pipeline figure.
 Use real sample images where I provide them.
 Final output must be a Visio .vsdx plus a Visio-exported preview.
 ```
@@ -209,7 +209,7 @@ A Codex plugin and skill for building publication-style research figures with a 
 2. regenerate the approved figure as clear modules,
 3. assemble the final editable/exportable figure in Microsoft Visio through PowerShell COM.
 
-This project was distilled from an OmniDet dataset-construction figure workflow for computer-vision paper figures. It is useful for CVPR/ICCV/TIP/IEEE-style dataset, augmentation, method, pipeline, and architecture diagrams where AI-generated visual modules look better than hand-drawn editor shapes, but final alignment and arrows still need a real diagram editor.
+This project is designed as a general research-figure workflow for SCI papers, top-tier conference papers, theses, and technical reports across disciplines. It is useful for dataset construction diagrams, experimental workflows, method frameworks, system architectures, model structures, data-processing pipelines, experimental setups, result-analysis diagrams, and multi-module scientific schematics in fields such as computer science, engineering, materials science, medicine, biology, chemistry, physics, environmental science, and management. The core idea is that AI generation creates professional, clear, style-consistent modules, while Visio handles final layout, arrows, relationships, and editable paper-ready files.
 
 ## Important Limitations
 
@@ -342,7 +342,7 @@ After I approve it, regenerate each module separately and assemble the final VSD
 ```
 
 ```text
-Use $research-figure-pipeline to convert this method section into a CVPR-style pipeline figure.
+Use $research-figure-pipeline to convert this method section into a publication-style pipeline figure.
 Use real sample images where I provide them.
 Final output must be a Visio .vsdx plus a Visio-exported preview.
 ```
